@@ -1,10 +1,13 @@
+ 
+ ## Desafio multithreading
+ 
  Neste desafio você terá que usar o que aprendemos com Multithreading e APIs para buscar o resultado mais rápido entre duas APIs distintas.
 
 As duas requisições serão feitas simultaneamente para as seguintes APIs:
 
-https://brasilapi.com.br/api/cep/v1/01153000 + cep
+`https://brasilapi.com.br/api/cep/v1/01153000`
 
-http://viacep.com.br/ws/ + cep + /json/
+`http://viacep.com.br/ws/{cep}/json/`
 
 Os requisitos para este desafio são:
 
